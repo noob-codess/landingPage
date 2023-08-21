@@ -1,9 +1,12 @@
 const textContainer = document.querySelector(".text-container");
 const lines = [
-    "Driving Excellence in Cloud Computing and DevOps.",
-    "Continuous Learner and Innovative Thinker",
-    "Problem-Solver and Collaborative Team Player",
-    "Automating Infrastructure, CI/CD, and Cloud Solutions.",
+    "Cloud Computing and DevOps",
+    "Continuous Learner",
+    "Innovative Thinker",
+    "Problem-Solver",
+    "Collaborative Team Player",
+    "Infrastructure Automation",
+    "CI/CD, and Cloud Solutions",
     "Agile Methodologies",
 ];
 let currentIndex = 0;
