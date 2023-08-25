@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  margin: 0;
+  padding: 0.2rem;
+}
+
+/* Set body background and text color */
+body {
+  background-image: url('fluff/pxfuel.jpg');
+  /* Replace with the actual image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* This will keep the background fixed while scrolling */
+  color: #ede9e9;
+  font-family: 'Scada', sans-serif;
+}
+
+/* Header styling */
+header {
+  background-color: #00000023;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 1rem;
+  font-family: 'Libre Barcode 39', cursive;
+  font-size: medium
+}
+
+/* Divisions styling */
+.fixed-sidebar {
+  background-color: #00000023;
+  width: 20%;
+  float: left;
+  padding: 1rem;
+}
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
+  padding-top: 20px;
+  /* Add some padding from the top */
+}
+
+.profile-image img {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+#typing-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: flex;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  font-size: medium;
+}
+
+#funky-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: flex;
+  padding: 1rem;
+  font-size: medium;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  /* Change to display: flex */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  border: 1px solid #ffffff;
+}
+
+.container-inner-a,
+.container-inner-b,
+.container-inner-c {
+  background-color: #00000023;
+  border: 1px solid #6b6868;
+  flex-basis: calc(33.33% - 20px);
+  margin: 10px 10px;
+  padding: 2rem;
+  cursor: pointer;
+
+
+}
+
+@media (max-width: 768px) {
+
+  .container-inner-a,
+  .container-inner-b,
+  .container-inner-c {
+    flex-basis: calc(100% - 20px);
+    /* Adjust flex-basis for smaller screens */
+    background-color: #847e7e97;
+    color: #000000;
+  }
+}
+
+.button-link {
+  color: #dad5d5;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  border: 2px solid #989494;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button-link:hover {
+  background-color: #aaaaaa;
+  color: #000000;
+}
+
+/* Container styling */
+.container-a {
+  background-color: #00000023;
+  border: 1px solid #ffffff;
+  padding: 1rem;
+  flex-basis: 30%;
+  /* Remove float: left; */
+}
+
+.container-b {
+  background-color: #00000023;
+  border: 1px solid #ffffff;
+  padding: 2rem;
+  flex-basis: 30%;
+  margin-top: 20px;
+  /* Remove float: left; */
+}
+
+@media (max-width: 768px) {
+
+
+  .container-b 
+  {
+  height: 150px;
+}
+}
+
+/* Footer styling */
+footer {
+  clear: both;
+  background-color: #00000023;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
